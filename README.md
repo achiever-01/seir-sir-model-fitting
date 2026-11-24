@@ -10,7 +10,6 @@ A learning project in compartmental transmission modelling and likelihood-based 
 - Computes a profile-likelihood interval for R0
 
 ## Run it
-pip install -r requirements.txt
 python seir_fit.py
 
 ## Results (seed 42)
@@ -28,5 +27,3 @@ True R0 = 2.0. SEIR profile-likelihood 95% interval: 1.88 to 2.62.
 - Reporting rate fixed at 100%
 - Not validated on real surveillance data
 
-## Next steps
-Fit a real outbreak dataset, estimate the reporting rate, try a stochastic model.
